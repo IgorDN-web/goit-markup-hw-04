@@ -3,8 +3,8 @@
   width: 1em;
   height: 1em;
   stroke-width: 0;
-  stroke: #fdf4f4;
-  fill: #fdf4f4;
+  stroke: currentColor;
+  fill: #f4f4fd;
 }
 
 /* ==========================================
@@ -15,6 +15,10 @@ Single-colored icons can be modified like so:
 }
 ========================================== */
 
-.icon-instagram {
-  width: 0.857421875em;
+.icon-twitter {
+  width: 1.15625em;
+}
+
+.icon-facebook {
+  width: 0.5625em;
 }
