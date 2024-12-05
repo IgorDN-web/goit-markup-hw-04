@@ -310,7 +310,7 @@ img {
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 }
 
-.section-hero.hero {
+.hero {
     background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office\ 1.jpg);
     background-repeat: no-repeat;
     background-position: center center;
@@ -521,6 +521,9 @@ section {
 .social-media-item {
     width: 40px;
     height: 40px;
+}
+:root {
+    --icon-color: #f4f4fd;
 }
 .social-media-item .link svg {
     fill: var(--icon-color, #f4f4fd);
