@@ -343,15 +343,12 @@ img {
     list-style: none;
     padding: 24px 100px;
 }
-.icon {
-    fill: #f4f4fd;
-    /* Change icon color */
-}
+
 .icon {
     margin-bottom: 0;
     align-items: center;
     justify-content: center;
-    fill: #fdf4f4;
+    fill: var(--icon-color);
 }
 
 .social-list {
